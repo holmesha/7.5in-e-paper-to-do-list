@@ -19,7 +19,7 @@
 
 import re
 
-from . import Image
+import Image
 
 
 def getrgb(color):
