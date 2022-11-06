@@ -2,7 +2,7 @@
 # Shahriar Shahramian / November 2018
 
 import epd7in5b_V2
-import Image
+import image
 import ImageDraw
 import ImageFont
 import calendar
