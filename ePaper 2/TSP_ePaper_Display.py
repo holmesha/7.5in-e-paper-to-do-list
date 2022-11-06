@@ -1,7 +1,7 @@
 # The Signal Path - DataPad ePaper Display
 # Shahriar Shahramian / November 2018
 
-import epd7in5b
+import epd7in5b_V2
 import Image
 import ImageDraw
 import ImageFont
@@ -25,7 +25,7 @@ WEATHER_API = 'PUT YOUR ID HERE'
 def main():
         global Debug_Mode; Debug_Mode = 0
         global do_screen_update; do_screen_update = 1
-        global epd; epd = epd7in5b.EPD()
+        global epd; epd = epd7in5b_V2.EPD()
         if Debug_Mode == 0:
             epd.init()
         else:
