@@ -34,7 +34,7 @@ import math
 import numbers
 import warnings
 
-from . import Image, ImageColor
+import image, ImageColor
 from ._deprecate import deprecate
 
 """
