@@ -24,7 +24,7 @@
  # THE SOFTWARE.
  ##
 
-import epd7in5b
+import epd7in5b_V2
 import Image
 import ImageDraw
 import ImageFont
@@ -34,7 +34,7 @@ EPD_WIDTH = 640
 EPD_HEIGHT = 384
 
 def main():
-    epd = epd7in5.EPD()
+    epd = epd7in5_V2.EPD()
     epd.init()
 
 
